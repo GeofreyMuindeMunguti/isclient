@@ -4952,8 +4952,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
 /* harmony import */ var _app_shared_shared_module__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../app/shared/shared.module */ "./src/app/shared/shared.module.ts");
-/* harmony import */ var _nebular_theme__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @nebular/theme */ "./node_modules/@nebular/theme/fesm5/index.js");
-/* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./login/login.component */ "./src/app/login/login.component.ts");
+/* harmony import */ var angular_google_charts__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! angular-google-charts */ "./node_modules/angular-google-charts/fesm5/angular-google-charts.js");
+/* harmony import */ var _nebular_theme__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @nebular/theme */ "./node_modules/@nebular/theme/fesm5/index.js");
+/* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./login/login.component */ "./src/app/login/login.component.ts");
+
 
 
 
@@ -4971,21 +4973,22 @@ var AppModule = /** @class */ (function () {
     }
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
-            declarations: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"], _login_login_component__WEBPACK_IMPORTED_MODULE_11__["LoginComponent"]],
+            declarations: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"], _login_login_component__WEBPACK_IMPORTED_MODULE_12__["LoginComponent"]],
             imports: [
+                angular_google_charts__WEBPACK_IMPORTED_MODULE_10__["GoogleChartsModule"],
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
                 _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_2__["BrowserAnimationsModule"],
                 _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClientModule"],
                 _app_shared_shared_module__WEBPACK_IMPORTED_MODULE_9__["SharedModule"],
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_8__["AppRoutingModule"],
                 _theme_theme_module__WEBPACK_IMPORTED_MODULE_6__["ThemeModule"].forRoot(),
-                _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbSidebarModule"].forRoot(),
-                _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbMenuModule"].forRoot(),
-                _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbDatepickerModule"].forRoot(),
-                _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbDialogModule"].forRoot(),
-                _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbWindowModule"].forRoot(),
-                _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbToastrModule"].forRoot(),
-                _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbChatModule"].forRoot({
+                _nebular_theme__WEBPACK_IMPORTED_MODULE_11__["NbSidebarModule"].forRoot(),
+                _nebular_theme__WEBPACK_IMPORTED_MODULE_11__["NbMenuModule"].forRoot(),
+                _nebular_theme__WEBPACK_IMPORTED_MODULE_11__["NbDatepickerModule"].forRoot(),
+                _nebular_theme__WEBPACK_IMPORTED_MODULE_11__["NbDialogModule"].forRoot(),
+                _nebular_theme__WEBPACK_IMPORTED_MODULE_11__["NbWindowModule"].forRoot(),
+                _nebular_theme__WEBPACK_IMPORTED_MODULE_11__["NbToastrModule"].forRoot(),
+                _nebular_theme__WEBPACK_IMPORTED_MODULE_11__["NbChatModule"].forRoot({
                     messageGoogleMapKey: 'AIzaSyA_wNuCzia92MAmdLRzmqitRGvCF7wCZPY',
                 }),
                 _core_core_module__WEBPACK_IMPORTED_MODULE_5__["CoreModule"].forRoot(),
